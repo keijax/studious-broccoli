@@ -3,8 +3,8 @@ import { unixNow } from '../lib/utils';
 import { MineMessageParams, Queries } from '../wrappers/NftGiver';
 import { NetworkProvider } from '@ton/blueprint';
 
-const walletAddress = Address.parse('0QAklAyPvauVqh4OC4fSx4-uSmKaMfVPlynRfgPHNstn3IKj');
-const collectionAddress = Address.parse('EQDk8N7xM5D669LC2YACrseBJtDyFqwtSPCNhRWXU7kjEptX');
+const walletAddress = Address.parse('Wallet_Address');
+const collectionAddress = Address.parse('Collection_Address');
 
 // specify endpoint for Testnet
 const endpoint = "https://testnet.toncenter.com/api/v2/jsonRPC";
